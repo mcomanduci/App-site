@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+  }
+  h5 {
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
+}
+
+.section-container {
+  @apply mx-auto max-w-6xl px-10 text-center;
+}
+
+.section-content {
+  @apply mx-auto max-w-3xl text-center text-xl leading-9 text-grayishBlue;
+}
+
+.button-container {
+  @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-x-4 md:space-y-0;
+}
+
+body {
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url('images/bg-header-mobile.png');
+  }
+}
+
+/* .ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+} */
+
+.ficon2:hover {
+  filter: invert(28%) sepia(49%) saturate(6508%) hue-rotate(215deg)
+    brightness(101%) contrast(102%);
+}
+
+.ficon3:hover {
+  filter: invert(46%) sepia(99%) saturate(2285%) hue-rotate(171deg)
+    brightness(99%) contrast(94%);
+}
+
+.ficon4:hover {
+  filter: invert(30%) sepia(40%) saturate(6985%) hue-rotate(317deg)
+    brightness(90%) contrast(91%);
+}
