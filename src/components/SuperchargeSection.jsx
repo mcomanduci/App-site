@@ -1,7 +1,7 @@
 import SuperchargeItems from './SuperchargeItems';
-import iconBlacklist from '../../public/images/icon-blacklist.svg';
-import iconText from '../../public/images/icon-text.svg';
-import iconPreview from '../../public/images/icon-preview.svg';
+import iconBlacklist from '/images/icon-blacklist.svg';
+import iconText from '/images/icon-text.svg';
+import iconPreview from '/images/icon-preview.svg';
 
 function SuperchargeSection() {
   return (

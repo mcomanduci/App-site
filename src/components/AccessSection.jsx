@@ -1,4 +1,4 @@
-import imageDevices from '../../public/images/image-devices.png';
+import imageDevices from '/images/image-devices.png';
 
 function AccessSection() {
   return (

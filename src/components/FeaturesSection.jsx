@@ -1,5 +1,5 @@
 import FeatureItems from './FeatureItems';
-import imageComputer from '../../public/images/image-computer.png';
+import imageComputer from '/images/image-computer.png';
 
 function FeaturesSection() {
   return (

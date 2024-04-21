@@ -1,8 +1,8 @@
-import googleLogo from '../../public/images/logo-google.png';
-import imbLogo from '../../public/images/logo-ibm.png';
-import microsoftLogo from '../../public/images/logo-microsoft.png';
-import hpLogo from '../../public/images/logo-hp.png';
-import vectorGraphicsLogo from '../../public/images/logo-vector-graphics.png';
+import googleLogo from '/images/logo-google.png';
+import imbLogo from '/images/logo-ibm.png';
+import microsoftLogo from '/images/logo-microsoft.png';
+import hpLogo from '/images/logo-hp.png';
+import vectorGraphicsLogo from '/images/logo-vector-graphics.png';
 
 function ReferencesSection() {
   return (
